@@ -43,6 +43,8 @@ Inicie o servidor
   npm run start
 ```
 
+**Pronto! O servidor estará rodando em** `localhost:5000`
+
 ## Documentação da API
 
 #### Retorna todos os itens
