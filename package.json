@@ -1,5 +1,5 @@
 {
-  "name": "api-node-postgres",
+  "name": "api-merchants-app",
   "version": "1.0.0",
   "description": "API feita com Node e Express para se conectar ao PostgreSQL",
   "main": "index.js",
