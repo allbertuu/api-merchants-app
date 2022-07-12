@@ -1,4 +1,4 @@
-# api-node-postgres
+# api-merchants-app
 
 Desenvolvi esse projeto para pôr em prática minhas habilidades de integração do Frontend ao Backend, assim como conexão à um banco de dados relacional.  
 Essa aplicação serve como API consumida pelo Front dessa aplicação: https://github.com/allbertuu/react-postgres
@@ -16,34 +16,6 @@ A aplicação prática deste estudo me permitiu:
 
 **Banco de dados**:
 <img align="center" alt="PostgreSQL badge" src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white">
-
-## Rodando localmente
-
-Clone o projeto
-
-```bash
-  git clone https://github.com/allbertuu/api-node-postgres
-```
-
-Entre no diretório do projeto
-
-```bash
-  cd api-node-postgres
-```
-
-Instale as dependências
-
-```bash
-  npm install
-```
-
-Inicie o servidor
-
-```bash
-  npm run start
-```
-
-**Pronto! O servidor estará rodando em** `localhost:5000`
 
 ## Documentação da API
 
