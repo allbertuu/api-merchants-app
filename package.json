@@ -1,0 +1,31 @@
+{
+  "name": "api-node-postgres",
+  "version": "1.0.0",
+  "description": "API feita com Node e Express para se conectar ao PostgreSQL",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/allbertuu/api-node-postgres.git"
+  },
+  "keywords": [
+    "api",
+    "postgres",
+    "postgreSQL"
+  ],
+  "author": "allbertuu <albertovinicius3@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/allbertuu/api-node-postgres/issues"
+  },
+  "homepage": "https://github.com/allbertuu/api-node-postgres#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "nodemon": "^2.0.19",
+    "pg": "^8.7.3"
+  }
+}
