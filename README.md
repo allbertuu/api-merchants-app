@@ -1,7 +1,7 @@
 # api-merchants-app
 
 Desenvolvi esse projeto para pôr em prática minhas habilidades de integração do Frontend ao Backend, assim como conexão à um banco de dados relacional.  
-Essa aplicação serve como API consumida pelo Front dessa aplicação: https://github.com/allbertuu/react-postgres
+Essa aplicação serve como API consumida pelo Front dessa aplicação: https://github.com/allbertuu/merchants-app
 
 ## Sobre o projeto
 A aplicação prática deste estudo me permitiu:
