@@ -1,0 +1,9 @@
+{
+  "env" : {
+    "POSTGRES_USER": "my_user",
+    "POSTGRES_PASSWORD": "root",
+    "POSTGRES_HOST": "localhost",
+    "POSTGRES_PORT": "5432",
+    "POSTGRES_DATABASE": "node_postgres"
+  }
+}
