@@ -1,17 +1,15 @@
 import pkg from "pg";
 const { Pool } = pkg;
 
+const connectionString = 'postgres://xwxxukycswsmcr:582fa4e2b8137747f0abc018d33499f5cb14662208bc426ad91dcfe583a1f384@ec2-18-214-35-70.compute-1.amazonaws.com:5432/db52csd839qusm'
+
 const pool = new Pool({
-  user: process.env.POSTGRES_USER,
-  host: process.env.POSTGRES_HOST,
-  database: process.env.POSTGRES_DATABASE,
-  password: process.env.POSTGRES_PASSWORD,
-  port: process.env.POSTGRES_PORT,
+  connectionString,
 });
 
 export const getMerchants = () => {
   return new Promise((resolve, reject) => {
-    pool.query("SELECT * FROM merchants ORDER BY id", (error, results) => {
+    pool.query("SELECT NOW()", (error, results) => {
       if (error) {
         reject(error);
       }
